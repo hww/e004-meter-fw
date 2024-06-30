@@ -1,0 +1,1428 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3603922604</fileChecksum>
+  <configuration>
+    <name>Meter35</name>
+    <outputs>
+      <file>$PROJ_DIR$\Meter35\List\sreg.s</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm3.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Source\main.hpp</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\Source\process.hpp</file>
+      <file>$PROJ_DIR$\Meter35\Obj\adc.o</file>
+      <file>$PROJ_DIR$\Meter35\Obj\wake.o</file>
+      <file>$PROJ_DIR$\Meter.icf</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Meter35\List\display.s</file>
+      <file>$PROJ_DIR$\Source\adc.cpp</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\Meter35\Obj\bright.o</file>
+      <file>$PROJ_DIR$\Meter35\Exe\Meter.hex</file>
+      <file>$PROJ_DIR$\Source\port.hpp</file>
+      <file>$PROJ_DIR$\Meter35\Obj\wake.pbi</file>
+      <file>$PROJ_DIR$\Meter35\Obj\control.pbi</file>
+      <file>$PROJ_DIR$\Meter35\List\adc.s</file>
+      <file>$PROJ_DIR$\Meter35\List\Meter.map</file>
+      <file>$PROJ_DIR$\Meter35\Obj\wakeport.pbi</file>
+      <file>$PROJ_DIR$\Meter35\List\bright.s</file>
+      <file>$PROJ_DIR$\Meter35\Obj\display.pbi</file>
+      <file>$PROJ_DIR$\Meter35\List\i2csw.i</file>
+      <file>$PROJ_DIR$\Meter35\List\display.i</file>
+      <file>$PROJ_DIR$\Source\control.hpp</file>
+      <file>$PROJ_DIR$\Source\eemap.hpp</file>
+      <file>$PROJ_DIR$\Meter35\List\port.s</file>
+      <file>$PROJ_DIR$\Meter35\List\wakeport.s</file>
+      <file>$PROJ_DIR$\Meter35\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Meter35\List\adc.i</file>
+      <file>$PROJ_DIR$\Source\wake.hpp</file>
+      <file>$PROJ_DIR$\Meter35\Obj\systimer.o</file>
+      <file>$PROJ_DIR$\Source\display.hpp</file>
+      <file>$PROJ_DIR$\Source\wakeport.hpp</file>
+      <file>$PROJ_DIR$\Meter35\List\systimer.i</file>
+      <file>$PROJ_DIR$\Source\gpio.hpp</file>
+      <file>$PROJ_DIR$\Meter35\Obj\Meter.pbd</file>
+      <file>$PROJ_DIR$\Source\process.cpp</file>
+      <file>$PROJ_DIR$\Source\i2csw.cpp</file>
+      <file>$PROJ_DIR$\Source\main.cpp</file>
+      <file>$PROJ_DIR$\Source\port.cpp</file>
+      <file>$PROJ_DIR$\Source\systimer.cpp</file>
+      <file>$PROJ_DIR$\Source\sreg.cpp</file>
+      <file>$PROJ_DIR$\Source\wakeport.cpp</file>
+      <file>$PROJ_DIR$\Source\wake.cpp</file>
+      <file>$PROJ_DIR$\Source\Sys\startup_stm32f10x_md_vl.s</file>
+      <file>$PROJ_DIR$\Source\Sys\stm32f10x.h</file>
+      <file>$PROJ_DIR$\Source\eeprom.cpp</file>
+      <file>$PROJ_DIR$\Meter35\Obj\startup_stm32f10x_md_vl.o</file>
+      <file>$PROJ_DIR$\Meter35\List\bright.i</file>
+      <file>$PROJ_DIR$\Meter35\Obj\port.o</file>
+      <file>$PROJ_DIR$\Meter35\List\process.s</file>
+      <file>$PROJ_DIR$\Meter35\Obj\process.pbi</file>
+      <file>$PROJ_DIR$\Meter35\Obj\wakeport.o</file>
+      <file>$PROJ_DIR$\Meter35\List\eeprom.s</file>
+      <file>$PROJ_DIR$\Meter35\Obj\eeprom.pbi</file>
+      <file>$PROJ_DIR$\Meter35\List\sreg.i</file>
+      <file>$PROJ_DIR$\Meter35\List\wakeport.i</file>
+      <file>$PROJ_DIR$\Meter35\Obj\sreg.pbi</file>
+      <file>$PROJ_DIR$\Meter35\Obj\process.o</file>
+      <file>$PROJ_DIR$\Meter35\List\eeprom.i</file>
+      <file>$PROJ_DIR$\Meter35\Obj\i2csw.pbi</file>
+      <file>$PROJ_DIR$\Meter35\List\control.s</file>
+      <file>$PROJ_DIR$\Meter35\Obj\systimer.pbi</file>
+      <file>$PROJ_DIR$\Meter35\List\wake.i</file>
+      <file>$PROJ_DIR$\Source\bright.cpp</file>
+      <file>$PROJ_DIR$\Meter35\Obj\control.o</file>
+      <file>$PROJ_DIR$\Source\presets.hpp</file>
+      <file>$PROJ_DIR$\Source\adc.hpp</file>
+      <file>$PROJ_DIR$\Meter35\List\systimer.s</file>
+      <file>$PROJ_DIR$\Meter35\Obj\sreg.o</file>
+      <file>$PROJ_DIR$\Meter35\Obj\main.o</file>
+      <file>$PROJ_DIR$\Meter35\Obj\port.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlpp7M_tl_ne.a</file>
+      <file>$PROJ_DIR$\Meter35\List\i2csw.s</file>
+      <file>$PROJ_DIR$\Source\eeprom.hpp</file>
+      <file>$PROJ_DIR$\Meter35\List\port.i</file>
+      <file>$PROJ_DIR$\Meter35\List\wake.s</file>
+      <file>$PROJ_DIR$\Meter35\Obj\eeprom.o</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\Source\systimer.hpp</file>
+      <file>$PROJ_DIR$\Source\control.cpp</file>
+      <file>$PROJ_DIR$\Meter35\List\main.i</file>
+      <file>$PROJ_DIR$\Meter35\List\control.i</file>
+      <file>$PROJ_DIR$\Source\dac.hpp</file>
+      <file>$PROJ_DIR$\Meter35\Obj\bright.pbi</file>
+      <file>$PROJ_DIR$\Meter35\Obj\i2csw.o</file>
+      <file>$PROJ_DIR$\Meter35\Exe\Meter.out</file>
+      <file>$PROJ_DIR$\Meter35\List\process.i</file>
+      <file>$PROJ_DIR$\Meter35\Obj\display.o</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Source\sreg.hpp</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\Source\bright.hpp</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Meter35\Obj\adc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Source\i2csw.hpp</file>
+      <file>$PROJ_DIR$\Meter35\List\main.s</file>
+      <file>$PROJ_DIR$\Source\display.cpp</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Source\adc.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35 23 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\process.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 57 65</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 10 74 81 31 38 97 73 30 99 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 10 74 81 31 38 97 73 30 99 90</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\i2csw.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28 80 92</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 105</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\main.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88 106 77</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 30 38 97 10 74 20 39 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 30 38 97 10 74 20 39 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\port.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82 32 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 20 39 36 10 74 30 38 97 99 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 20 39 36 10 74 30 38 97 99 90</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\systimer.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40 75 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\sreg.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62 0 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 97</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 97</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\wakeport.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63 33 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 39 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 39 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\wake.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70 83 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\Sys\startup_stm32f10x_md_vl.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\eeprom.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66 60 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 105 81 31 38 97</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 105 81 31 38 97</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 93 24</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\bright.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55 26 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 99 90 81 31 38 97 73 30 10 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 99 90 81 31 38 97 73 30 10 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\control.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 89 68 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 38 97 10 74 99 90 81 31 73</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Meter35\Exe\Meter.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 13 11 18 72 95 84 92 77 56 65 76 54 37 12 59 1 96 79 17 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\display.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29 15 95</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 38 97</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 8 101 102 6 98 5 104 14 52 4 3 100 2 85 41 86 38 97</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Meter40</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm3.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Source\main.hpp</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\Source\process.hpp</file>
+      <file>$PROJ_DIR$\Meter.icf</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Source\adc.cpp</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\Source\port.hpp</file>
+      <file>$PROJ_DIR$\Source\control.hpp</file>
+      <file>$PROJ_DIR$\Source\eemap.hpp</file>
+      <file>$PROJ_DIR$\Source\wake.hpp</file>
+      <file>$PROJ_DIR$\Source\display.hpp</file>
+      <file>$PROJ_DIR$\Source\wakeport.hpp</file>
+      <file>$PROJ_DIR$\Source\gpio.hpp</file>
+      <file>$PROJ_DIR$\Source\process.cpp</file>
+      <file>$PROJ_DIR$\Source\i2csw.cpp</file>
+      <file>$PROJ_DIR$\Source\main.cpp</file>
+      <file>$PROJ_DIR$\Source\port.cpp</file>
+      <file>$PROJ_DIR$\Source\systimer.cpp</file>
+      <file>$PROJ_DIR$\Source\sreg.cpp</file>
+      <file>$PROJ_DIR$\Source\wakeport.cpp</file>
+      <file>$PROJ_DIR$\Source\wake.cpp</file>
+      <file>$PROJ_DIR$\Source\Sys\startup_stm32f10x_md_vl.s</file>
+      <file>$PROJ_DIR$\Source\Sys\stm32f10x.h</file>
+      <file>$PROJ_DIR$\Source\eeprom.cpp</file>
+      <file>$PROJ_DIR$\Source\bright.cpp</file>
+      <file>$PROJ_DIR$\Source\presets.hpp</file>
+      <file>$PROJ_DIR$\Source\adc.hpp</file>
+      <file>$TOOLKIT_DIR$\lib\dlpp7M_tl_ne.a</file>
+      <file>$PROJ_DIR$\Source\eeprom.hpp</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\Source\systimer.hpp</file>
+      <file>$PROJ_DIR$\Source\control.cpp</file>
+      <file>$PROJ_DIR$\Source\dac.hpp</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Source\sreg.hpp</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\Source\bright.hpp</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Source\i2csw.hpp</file>
+      <file>$PROJ_DIR$\Meter40\Obj\eeprom.o</file>
+      <file>$PROJ_DIR$\Source\display.cpp</file>
+      <file>$PROJ_DIR$\Meter40\Obj\systimer.o</file>
+      <file>$PROJ_DIR$\Meter40\List\systimer.s</file>
+      <file>$PROJ_DIR$\Meter40\List\sreg.s</file>
+      <file>$PROJ_DIR$\Meter40\List\main.s</file>
+      <file>$PROJ_DIR$\Meter40\List\wakeport.s</file>
+      <file>$PROJ_DIR$\Meter40\List\Meter.map</file>
+      <file>$PROJ_DIR$\Meter40\Obj\wake.pbi</file>
+      <file>$PROJ_DIR$\Meter40\List\eeprom.i</file>
+      <file>$PROJ_DIR$\Meter40\Obj\wakeport.pbi</file>
+      <file>$PROJ_DIR$\Meter40\Obj\main.o</file>
+      <file>$PROJ_DIR$\Meter40\Obj\bright.pbi</file>
+      <file>$PROJ_DIR$\Meter40\Obj\control.o</file>
+      <file>$PROJ_DIR$\Meter40\Obj\sreg.o</file>
+      <file>$PROJ_DIR$\Meter40\List\adc.s</file>
+      <file>$PROJ_DIR$\Meter40\List\port.s</file>
+      <file>$PROJ_DIR$\Meter40\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Meter40\List\wake.s</file>
+      <file>$PROJ_DIR$\Meter40\List\main.i</file>
+      <file>$PROJ_DIR$\Meter40\Obj\sreg.pbi</file>
+      <file>$PROJ_DIR$\Meter40\Obj\process.pbi</file>
+      <file>$PROJ_DIR$\Meter40\List\control.i</file>
+      <file>$PROJ_DIR$\Meter40\Obj\port.pbi</file>
+      <file>$PROJ_DIR$\Meter40\List\systimer.i</file>
+      <file>$PROJ_DIR$\Meter40\List\sreg.i</file>
+      <file>$PROJ_DIR$\Meter40\List\display.i</file>
+      <file>$PROJ_DIR$\Meter40\Obj\systimer.pbi</file>
+      <file>$PROJ_DIR$\Meter40\Exe\Meter.hex</file>
+      <file>$PROJ_DIR$\Meter40\Obj\process.o</file>
+      <file>$PROJ_DIR$\Meter40\Obj\i2csw.o</file>
+      <file>$PROJ_DIR$\Meter40\Exe\Meter.out</file>
+      <file>$PROJ_DIR$\Meter40\Obj\port.o</file>
+      <file>$PROJ_DIR$\Meter40\Obj\i2csw.pbi</file>
+      <file>$PROJ_DIR$\Meter40\List\port.i</file>
+      <file>$PROJ_DIR$\Meter40\Obj\display.pbi</file>
+      <file>$PROJ_DIR$\Meter40\Obj\eeprom.pbi</file>
+      <file>$PROJ_DIR$\Meter40\Obj\adc.pbi</file>
+      <file>$PROJ_DIR$\Meter40\Obj\Meter.pbd</file>
+      <file>$PROJ_DIR$\Meter40\List\i2csw.i</file>
+      <file>$PROJ_DIR$\Meter40\Obj\adc.o</file>
+      <file>$PROJ_DIR$\Meter40\Obj\bright.o</file>
+      <file>$PROJ_DIR$\Meter40\Obj\wake.o</file>
+      <file>$PROJ_DIR$\Meter40\Obj\wakeport.o</file>
+      <file>$PROJ_DIR$\Meter40\Obj\control.pbi</file>
+      <file>$PROJ_DIR$\Meter40\List\i2csw.s</file>
+      <file>$PROJ_DIR$\Meter40\List\process.i</file>
+      <file>$PROJ_DIR$\Meter40\List\bright.s</file>
+      <file>$PROJ_DIR$\Meter40\List\wakeport.i</file>
+      <file>$PROJ_DIR$\Meter40\List\process.s</file>
+      <file>$PROJ_DIR$\Meter40\List\wake.i</file>
+      <file>$PROJ_DIR$\Meter40\List\eeprom.s</file>
+      <file>$PROJ_DIR$\Meter40\Obj\display.o</file>
+      <file>$PROJ_DIR$\Meter40\Obj\startup_stm32f10x_md_vl.o</file>
+      <file>$PROJ_DIR$\Meter40\List\control.s</file>
+      <file>$PROJ_DIR$\Meter40\List\display.s</file>
+      <file>$PROJ_DIR$\Meter40\List\adc.i</file>
+      <file>$PROJ_DIR$\Meter40\List\bright.i</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Source\adc.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 106 65 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\process.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96 99 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 9 34 36 16 18 42 33 15 44 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 9 34 36 16 18 42 33 15 44 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\i2csw.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 89 95 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\main.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69 55 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 15 18 42 9 34 14 19 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 15 18 42 9 34 14 19 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\port.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 66 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 14 19 17 9 34 15 18 42 44 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 14 19 17 9 34 15 18 42 44 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\systimer.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74 53 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\sreg.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75 54 64</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\wakeport.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 98 56 93</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 19 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 19 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\wake.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 68 92</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\Sys\startup_stm32f10x_md_vl.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\eeprom.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59 101 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 49 36 16 18 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 49 36 16 18 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 81 57</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\bright.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 97 91</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 44 40 36 16 18 42 33 15 9 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 44 40 36 16 18 42 33 15 9 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\control.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72 104 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 18 42 9 34 44 40 36 16 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 18 42 9 34 44 40 36 16 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\display.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76 105 102</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 18 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 46 47 5 43 4 48 11 30 3 2 45 1 37 20 38 18 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Meter40\Exe\Meter.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 10 90 91 63 102 50 80 61 82 79 64 103 52 92 93 0 41 35 13 8</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Meter50</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm3.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Source\main.hpp</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\Source\process.hpp</file>
+      <file>$PROJ_DIR$\Meter.icf</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Source\adc.cpp</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\Meter50\Obj\control.o</file>
+      <file>$PROJ_DIR$\Meter50\List\bright.i</file>
+      <file>$PROJ_DIR$\Meter50\List\process.i</file>
+      <file>$PROJ_DIR$\Meter50\List\eeprom.i</file>
+      <file>$PROJ_DIR$\Meter50\List\display.s</file>
+      <file>$PROJ_DIR$\Meter50\Obj\process.pbi</file>
+      <file>$PROJ_DIR$\Meter50\Obj\display.o</file>
+      <file>$PROJ_DIR$\Meter50\List\opto.s</file>
+      <file>$PROJ_DIR$\Meter50\Obj\keyboard.pbi</file>
+      <file>$PROJ_DIR$\Meter50\Obj\startup_stm32f10x_md_vl.o</file>
+      <file>$PROJ_DIR$\Meter50\Obj\opto.pbi</file>
+      <file>$PROJ_DIR$\Meter50\List\sreg.i</file>
+      <file>$PROJ_DIR$\Meter50\List\display.i</file>
+      <file>$PROJ_DIR$\Meter50\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Meter50\Obj\port.o</file>
+      <file>$PROJ_DIR$\Meter50\Obj\eeprom.o</file>
+      <file>$PROJ_DIR$\Meter50\Exe\Meter.out</file>
+      <file>$PROJ_DIR$\Meter50\Obj\control.pbi</file>
+      <file>$PROJ_DIR$\Meter50\Obj\i2csw.o</file>
+      <file>$PROJ_DIR$\Meter50\List\keyboard.s</file>
+      <file>$PROJ_DIR$\Meter50\Obj\backlight.pbi</file>
+      <file>$PROJ_DIR$\Meter50\List\systimer.s</file>
+      <file>$PROJ_DIR$\Meter50\Obj\display.pbi</file>
+      <file>$PROJ_DIR$\Meter50\List\control.i</file>
+      <file>$PROJ_DIR$\Meter50\Obj\main.o</file>
+      <file>$PROJ_DIR$\Meter50\Obj\adc.o</file>
+      <file>$PROJ_DIR$\Meter50\Obj\backlight.o</file>
+      <file>$PROJ_DIR$\Meter50\Obj\adc.pbi</file>
+      <file>$PROJ_DIR$\Meter50\List\wake.s</file>
+      <file>$PROJ_DIR$\Meter50\Obj\i2csw.pbi</file>
+      <file>$PROJ_DIR$\Meter50\Obj\sreg.pbi</file>
+      <file>$PROJ_DIR$\Meter50\List\i2csw.s</file>
+      <file>$PROJ_DIR$\Meter50\List\opto.i</file>
+      <file>$PROJ_DIR$\Meter50\Obj\systimer.o</file>
+      <file>$PROJ_DIR$\Meter50\List\sreg.s</file>
+      <file>$PROJ_DIR$\Meter50\Exe\Meter.hex</file>
+      <file>$PROJ_DIR$\Meter50\Obj\wake.o</file>
+      <file>$PROJ_DIR$\Meter50\List\adc.s</file>
+      <file>$PROJ_DIR$\Meter50\Obj\port.pbi</file>
+      <file>$PROJ_DIR$\Meter50\Obj\process.o</file>
+      <file>$PROJ_DIR$\Meter50\List\main.s</file>
+      <file>$PROJ_DIR$\Meter50\List\eeprom.s</file>
+      <file>$PROJ_DIR$\Meter50\List\process.s</file>
+      <file>$PROJ_DIR$\Source\backlight.hpp</file>
+      <file>$PROJ_DIR$\Meter50\List\bright.s</file>
+      <file>$PROJ_DIR$\Source\opto.hpp</file>
+      <file>$PROJ_DIR$\Meter50\List\adc.i</file>
+      <file>$PROJ_DIR$\Meter50\Obj\wakeport.pbi</file>
+      <file>$PROJ_DIR$\Meter50\List\wake.i</file>
+      <file>$PROJ_DIR$\Meter50\Obj\systimer.pbi</file>
+      <file>$PROJ_DIR$\Source\opto.cpp</file>
+      <file>$PROJ_DIR$\Source\backlight.cpp</file>
+      <file>$PROJ_DIR$\Source\port.hpp</file>
+      <file>$PROJ_DIR$\Meter50\List\port.i</file>
+      <file>$PROJ_DIR$\Meter50\List\wakeport.s</file>
+      <file>$PROJ_DIR$\Meter50\List\main.i</file>
+      <file>$PROJ_DIR$\Meter50\Obj\wakeport.o</file>
+      <file>$PROJ_DIR$\Source\keyboard.cpp</file>
+      <file>$PROJ_DIR$\Meter50\Obj\bright.o</file>
+      <file>$PROJ_DIR$\Meter50\Obj\keyboard.o</file>
+      <file>$PROJ_DIR$\Meter50\List\keyboard.i</file>
+      <file>$PROJ_DIR$\Meter50\Obj\eeprom.pbi</file>
+      <file>$PROJ_DIR$\Source\keyboard.hpp</file>
+      <file>$PROJ_DIR$\Meter50\Obj\bright.pbi</file>
+      <file>$PROJ_DIR$\Meter50\Obj\wake.pbi</file>
+      <file>$PROJ_DIR$\Meter50\List\Meter.map</file>
+      <file>$PROJ_DIR$\Meter50\List\wakeport.i</file>
+      <file>$PROJ_DIR$\Meter50\List\systimer.i</file>
+      <file>$PROJ_DIR$\Meter50\Obj\Meter.pbd</file>
+      <file>$PROJ_DIR$\Meter50\List\i2csw.i</file>
+      <file>$PROJ_DIR$\Meter50\Obj\opto.o</file>
+      <file>$PROJ_DIR$\Source\control.hpp</file>
+      <file>$PROJ_DIR$\Source\eemap.hpp</file>
+      <file>$PROJ_DIR$\Source\wake.hpp</file>
+      <file>$PROJ_DIR$\Source\display.hpp</file>
+      <file>$PROJ_DIR$\Source\wakeport.hpp</file>
+      <file>$PROJ_DIR$\Meter50\Obj\sreg.o</file>
+      <file>$PROJ_DIR$\Meter50\List\control.s</file>
+      <file>$PROJ_DIR$\Meter50\List\port.s</file>
+      <file>$PROJ_DIR$\Source\gpio.hpp</file>
+      <file>$PROJ_DIR$\Source\process.cpp</file>
+      <file>$PROJ_DIR$\Source\i2csw.cpp</file>
+      <file>$PROJ_DIR$\Source\main.cpp</file>
+      <file>$PROJ_DIR$\Source\port.cpp</file>
+      <file>$PROJ_DIR$\Source\systimer.cpp</file>
+      <file>$PROJ_DIR$\Source\sreg.cpp</file>
+      <file>$PROJ_DIR$\Source\wakeport.cpp</file>
+      <file>$PROJ_DIR$\Source\wake.cpp</file>
+      <file>$PROJ_DIR$\Source\Sys\startup_stm32f10x_md_vl.s</file>
+      <file>$PROJ_DIR$\Source\Sys\stm32f10x.h</file>
+      <file>$PROJ_DIR$\Source\eeprom.cpp</file>
+      <file>$PROJ_DIR$\Source\bright.cpp</file>
+      <file>$PROJ_DIR$\Source\presets.hpp</file>
+      <file>$PROJ_DIR$\Source\adc.hpp</file>
+      <file>$TOOLKIT_DIR$\lib\dlpp7M_tl_ne.a</file>
+      <file>$PROJ_DIR$\Source\eeprom.hpp</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\Source\systimer.hpp</file>
+      <file>$PROJ_DIR$\Source\control.cpp</file>
+      <file>$PROJ_DIR$\Source\dac.hpp</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Source\sreg.hpp</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\Source\bright.hpp</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Source\i2csw.hpp</file>
+      <file>$PROJ_DIR$\Source\display.cpp</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Source\adc.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60 51 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 107</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Meter50\Exe\Meter.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 10 39 72 14 20 29 32 38 28 53 90 23 47 50 70 0 114 108 13 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\opto.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 21 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 59</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\backlight.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 57 113</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\keyboard.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74 33 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 76</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\process.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 56 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 9 107 109 86 88 115 106 85 117 113</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\i2csw.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83 45 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 122</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 122</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\main.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69 54 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 85 88 115 9 107 66 89 87</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 85 88 115 9 107 66 89 87</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\port.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67 92 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 66 89 87 9 107 85 88 115 117 113</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 66 89 87 9 107 85 88 115 117 113</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\systimer.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81 35 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\sreg.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25 48 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 115</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 115</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\wakeport.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80 68 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 89 87</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 89 87</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\wake.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62 42 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 87</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 87</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\Sys\startup_stm32f10x_md_vl.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\eeprom.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17 55 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 122 109 86 88 115</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 122 109 86 88 115</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 30 79</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\bright.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 58 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 117 113 109 86 88 115 106 85 9 107</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 117 113 109 86 88 115 106 85 9 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\control.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 91 14</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 88 115 9 107 117 113 109 86 106</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 88 115 9 107 117 113 109 86 106</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\display.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26 18 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 88 115</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 7 119 120 5 116 4 121 11 103 3 2 118 1 110 93 111 88 115</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+
